@@ -1,11 +1,13 @@
 <h1 align="center"> Libft </h1>
 
-<h4 align="center"> A 42 project writted in C language</h4>
+<p align="center"> A 42 project writted in C language</p>
 
 ---
 
 ## introduction
-#### This project has the purpose of recode the usual C funtions for use in the future 42 projects. 
+
+<p> This project has the purpose of recode the usual C funtions for use in the future 42 projects. </p>
+
 - [part_1](#part_1) - Set of recoded libc functions
 - [part_2](#part_2) - Set of non-libc functions
 - [bonus](#bonus) - Set of linked list funtions
