@@ -3,23 +3,23 @@
 <p align="center"> A 42 project written in C language</p>
 
 <p align="center">
-  <img alt="status completed" src="https://img.shields.io/badge/status-completed-green">
-  <img alt="made with c language" src="https://img.shields.io/badge/made%20with-c-blue">
+  <img alt="status completed" src="https://img.shields.io/badge/STATUS-COMPLETED-green">
+  <img alt="made with c language" src="https://img.shields.io/badge/MADE%20WITH-C-blue">
 </p>
 
 ---
 
-## introduction
+## Introduction
 
 <p> This project had the purpose of recode the usual C funtions for use in the future 42 projects. </p>
 
-- [part_1](#part_1) - Set of recoded libc functions
-- [part_2](#part_2) - Set of non-libc functions
-- [bonus](#bonus) - Set of linked list funtions
-- [usage](#usage) - How to use this lib
-- [makefile](#makefile-commands) - Makefile commands
+- [Part 1](#%EF%B8%8F-part-1) - Set of recoded libc functions
+- [Part 2](#%EF%B8%8F-part-2) - Set of non-libc functions
+- [Bonus](#-bonus) - Set of linked list funtions
+- [Usage](#%EF%B8%8F-usage) - How to use this lib
+- [Makefile](#-makefile-commands) - Makefile commands
 
-## part_1
+## ☝️ Part 1
 #### ctype.h lib
 | _function_name_list_ | _Description_ |
 | :----------------: | :------------ |
@@ -59,7 +59,7 @@
 [**ft_atoi**](/ft_atoi.c) | Converts the initial portion of the string pointed to by nptr to int. Atoi does not detect errors.
 [**ft_calloc**](/ft_calloc.c) | Allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory. The memory is set to zero.
 
-## part_2
+## ✌️ Part 2
 #### string
 | _function_name_list_ | _Description_ |
 | :----------------: | :------------ |
@@ -83,7 +83,7 @@
 [**ft_putchar_fd**](/ft_putchar_fd.c) | Outputs the character ’c’ to the given file descriptor.
 [**ft_putendl_fd**](/ft_putendl_fd.c) | Outputs the string ’s’ to the given file descriptor followed by a newline.
 
-## bonus
+## ✨ Bonus
 #### linked list
 | _function_name_list_ | _Description_ |
 | :----------------: | :------------ |
@@ -97,11 +97,16 @@
 [**ft_lstadd_back**](/ft_lstadd_back.c) | Adds the node ’new’ at the end of the list.
 [**ft_lstadd_front**](/ft_lstadd_front.c) | Adds the node ’new’ at the beginning of the list.
 
-## usage
+## 🛠️ Usage
 <p> For use this lib, follow these steps:</p>
 
+- Clone this repository:
+```
+https://github.com/willianportilho/libft.git
+```
+
 - `make` for compiling the libft.a.
-- `make bonus` for include bonus functions (lists).
+- `make bonus` if you ever want include bonus functions (lists).
 
 - Include this header on you code:  
 ``` c
@@ -110,13 +115,13 @@
 _*If necessary, change the location. Remember that the include location depends on where your another files are._  
 
 
-- finally, compile the program whith this line:  
+- Finally, compile the program whith this line:  
 ```
 gcc your_program_here.c -L. -lft -o your_program_here
 ```
 
 
-## Makefile commands
+## 🤖 Makefile Commands
 - `make` to create *.o objects and compile the libft.a;  
 - `make bonus` to include bonus functions (lists) in the libft.a.  
 - `make clean` to erase *.o objects;  
