@@ -9,15 +9,18 @@
 
 ---
 
-## Introduction
-
-<p> This project had the purpose of recode the usual C funtions for use in the future 42 projects. </p>
-
+- [Introduction](#introduction)
 - [Part 1](#%EF%B8%8F-part-1) - Set of recoded libc functions
 - [Part 2](#%EF%B8%8F-part-2) - Set of non-libc functions
 - [Bonus](#-bonus) - Set of linked list funtions
 - [Usage](#%EF%B8%8F-usage) - How to use this lib
 - [Makefile](#-makefile-commands) - Makefile commands
+
+## Introduction
+
+<p> This project had the purpose of recode the usual C funtions for use in the future 42 projects. </p>
+
+---
 
 ## ☝️ Part 1
 #### ctype.h lib
